@@ -10,8 +10,8 @@ public class CoinFlipping {
         CoinFlipping coin=new CoinFlipping();
         Random rands =new Random();
         Scanner scaner=new Scanner(System.in);
-
-        while(!(scaner.next().equals("k")) {
+        System.out.println("flipcoin:");
+        do {
             int sides = rands.nextInt(2);
 
             if (sides == 1) {
@@ -21,7 +21,8 @@ public class CoinFlipping {
             }
             System.out.println(coin.coinsides);
             System.out.println(sides);
-        }
+            System.out.println("continue:");
+        }while(!(scaner.next().equals("k")));
     }
 
 }
