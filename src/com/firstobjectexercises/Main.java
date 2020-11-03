@@ -45,7 +45,8 @@ public class Main {
         Aliasing als=new Aliasing();
         als.aliasing();
        */
-        CalculatorVelocity vel=new CalculatorVelocity();
-        System.out.println(vel.vello());
+      //  CalculatorVelocity vel=new CalculatorVelocity();
+      //  System.out.println(vel.vello());
+
     }
 }
