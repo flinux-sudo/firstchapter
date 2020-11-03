@@ -10,7 +10,10 @@ public class CoinFlipping {
         CoinFlipping coin=new CoinFlipping();
         Random rands =new Random();
         Scanner scaner=new Scanner(System.in);
+
         System.out.println("flipcoin:");
+        System.out.println("to continue game input some sign" +
+                "to end game input :E=END");
         do {
             int sides = rands.nextInt(2);
 
@@ -22,7 +25,7 @@ public class CoinFlipping {
             System.out.println(coin.coinsides);
             System.out.println(sides);
             System.out.println("continue:");
-        }while(!(scaner.next().equals("k")));
+        }while(!(scaner.next().equals("E")));
     }
 
 }
