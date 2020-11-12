@@ -32,13 +32,11 @@ public class CoinFlipping {
             System.out.println(sides);
             System.out.println("continue:");
             System.out.println("iterator: "+iterator++);
+
         }while(iterator<limit);
+
         System.out.println("numberofheads: "+numberofheads);
         System.out.println("numberoftailes: "+numberoftailes);
-
-
-
-
     }
 
 }
